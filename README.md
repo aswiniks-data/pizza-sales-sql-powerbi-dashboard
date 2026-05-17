@@ -101,66 +101,9 @@ The client (a pizza restaurant owner) needed answers to the following business q
 
 ---
 
-##  SQL Analysis — 17 Queries Across 4 Sections
+##  SQL Analysis 
 
-All queries are stored in [`SQL/pizza_sales_queries.sql`](SQL/pizza_sales_queries.sql)
-
-### Section 1 — KPI Metrics (Queries 1–5)
-```sql
--- 1. Total Revenue
-SELECT SUM(total_price) AS total_revenue FROM pizza_sales;
-
--- 2. Average Order Value
-SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value FROM pizza_sales;
-
--- 3. Total Pizzas Sold
-SELECT SUM(quantity) AS total_pizzas_sold FROM pizza_sales;
-
--- 4. Total Orders
-SELECT COUNT(DISTINCT order_id) AS total_orders FROM pizza_sales;
-
--- 5. Average Pizzas Per Order
-SELECT CAST(
-  CAST(SUM(quantity) AS DECIMAL(10,2)) /
-  CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2))
-AS DECIMAL(10,2)) AS avg_pizzas_per_order
-FROM pizza_sales;
-```
-
-### Section 2 — Trend Analysis (Queries 6–7)
-```sql
--- 6. Daily Trend of Orders (correctly ordered Sun–Sat)
-SELECT DATENAME(WEEKDAY, order_date) AS order_day,
-       COUNT(DISTINCT order_id) AS total_orders
-FROM pizza_sales
-GROUP BY DATENAME(WEEKDAY, order_date)
-ORDER BY
-  CASE DATENAME(WEEKDAY, order_date)
-    WHEN 'Sunday'    THEN 1
-    WHEN 'Monday'    THEN 2
-    WHEN 'Tuesday'   THEN 3
-    WHEN 'Wednesday' THEN 4
-    WHEN 'Thursday'  THEN 5
-    WHEN 'Friday'    THEN 6
-    WHEN 'Saturday'  THEN 7
-  END;
-
--- 7. Monthly Trend of Orders (correctly ordered Jan–Dec)
-SELECT DATENAME(MONTH, order_date) AS order_month,
-       COUNT(DISTINCT order_id) AS total_orders
-FROM pizza_sales
-GROUP BY DATENAME(MONTH, order_date)
-ORDER BY MONTH(MIN(order_date));
-```
-
-### Section 3 — Sales Breakdown (Queries 8–11)
-- % of sales by pizza category (full year + January filter)
-- % of sales by pizza size (full year + Q1 filter)
-
-### Section 4 — Best & Worst Sellers (Queries 12–17)
-- Top 5 and Bottom 5 pizzas by **Revenue**, **Quantity**, and **Total Orders**
-
-> See the full query file for all 17 queries with comments: [`SQL/pizza_sales_queries.sql`](SQL/pizza_sales_queries.sql)
+All queries are stored in [Pizza Sale SQL Queries.docx](https://github.com/user-attachments/files/27937427/Pizza.Sale.SQL.Queries.docx)
 
 ---
 
