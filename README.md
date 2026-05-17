@@ -1,4 +1,4 @@
-#  Pizza Sales Analysis — SQL & Power BI Dashboard
+# 🍕 Pizza Sales Analysis — SQL & Power BI Dashboard
 
 > **End-to-end data analytics project** analysing 48,000+ pizza sales records using SQL for data extraction and validation, and Power BI for interactive dashboard design.
 
@@ -227,16 +227,12 @@ pizza-sales-sql-powerbi-dashboard/
 
 ##  How to Run This Project
 
-1. **SQL Setup**
-   - Install MS SQL Server Management Studio (SSMS)
-   - Create a new database (e.g. `PizzaDB`)
-   - Import `pizza_sales.csv` using the Import Flat File wizard
-   - Run queries from `SQL/pizza_sales_queries.sql`
-
-2. **Power BI Setup**
-   - Install Power BI Desktop 
-   - Open `pizza_sales_dashboard.pbix`
-   - If prompted, reconnect data source to your local SQL Server or point to the CSV file directly
+| File | What it shows |
+|---|---|
+| `pizza_sales_dashboard.pbix` | Open in Power BI Desktop to interact with the full dashboard |
+| `SQL/pizza_sales_queries.sql` | All 17 queries with comments — open in SSMS or any SQL editor |
+| `KPI_Documentation/` | Query screenshots showing SQL outputs matching Power BI |
+| `pizza_sales.csv` | Raw dataset — 48,620 rows, importable into any SQL database |
 
 ---
 
@@ -254,7 +250,10 @@ pizza-sales-sql-powerbi-dashboard/
 ##  Author
 
 **Aswini Karoth Sadanandan**
-MSc Business Analytics | Maynooth University, Ireland
+MSc Business Analytics | Maynooth University, Ireland (2024 -2025)
+📧 imaswiniks@gmail.com
 [LinkedIn](https://www.linkedin.com/in/aswinikarothsadanandan) | [GitHub](https://github.com/aswiniks-data)
+
+
 
 
