@@ -234,7 +234,7 @@ pizza-sales-sql-powerbi-dashboard/
    - Run queries from `SQL/pizza_sales_queries.sql`
 
 2. **Power BI Setup**
-   - Install Power BI Desktop (June 2023 or later recommended)
+   - Install Power BI Desktop 
    - Open `pizza_sales_dashboard.pbix`
    - If prompted, reconnect data source to your local SQL Server or point to the CSV file directly
 
