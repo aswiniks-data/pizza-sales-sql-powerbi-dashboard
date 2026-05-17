@@ -36,7 +36,8 @@ The client (a pizza restaurant owner) needed answers to the following business q
 
 
 ### Page 2 — Best & Worst Sellers
-![Best Worst Sellers](screenshots/best_worst.png)
+<img width="1207" height="737" alt="best_worst png" src="https://github.com/user-attachments/assets/8be21021-9b47-46d8-8290-14b9b5be11bc" />
+
 
 ---
 
@@ -241,12 +242,12 @@ pizza-sales-sql-powerbi-dashboard/
 
 ##  Dashboard Features
 
-- **5 KPI cards** showing live totals with custom icons
-- **Interactive slicers**  filter by Pizza Category and Date Range
-- **Cross-filtering**  clicking any chart filters the entire dashboard
-- **Navigation buttons**  switch between Home and Best/Worst Sellers pages
-- **Conditional formatting**  bar colours scale dynamically with values
-- **Two-page layout**  overview dashboard + product performance deep-dive
+- 5 KPI cards showing live totals with custom icons
+- Interactive slicers filter by Pizza Category and Date Range
+- Cross-filtering clicking any chart filters the entire dashboard
+- Navigation buttons switch between Home and Best/Worst Sellers pages
+- Conditional formatting bar colours scale dynamically with values
+- Two-page layout overview dashboard + product performance deep-dive
 
 ---
 
