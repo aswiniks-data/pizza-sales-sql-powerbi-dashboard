@@ -173,7 +173,7 @@ pizza-sales-sql-powerbi-dashboard/
 | File | What it shows |
 |---|---|
 | `pizza_sales_dashboard.pbix` | Open in Power BI Desktop to interact with the full dashboard |
-| `SQL/pizza_sales_queries.sql` | All 17 queries with comments — open in SSMS or any SQL editor |
+| `SQL/pizza_sales_queries.sql` | All queries with comments — open in SSMS or any SQL editor |
 | `KPI_Documentation/` | Query screenshots showing SQL outputs matching Power BI |
 | `pizza_sales.csv` | Raw dataset — 48,620 rows, importable into any SQL database |
 
