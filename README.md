@@ -31,8 +31,9 @@ The client (a pizza restaurant owner) needed answers to the following business q
 
 ##  Dashboard Preview
 
-### Page 1 — Home (KPI Overview & Trends)
-![Home Dashboard](screenshots/home.png)
+### Page 1 — Home (KPI Overview & Trends) 
+<img width="1182" height="737" alt="home png" src="https://github.com/user-attachments/assets/5596e6e2-7ae1-4bc4-b420-d24deb33982b" />
+
 
 ### Page 2 — Best & Worst Sellers
 ![Best Worst Sellers](screenshots/best_worst.png)
