@@ -155,21 +155,17 @@ Every KPI was cross-validated between SQL output and Power BI to confirm data ac
 ##  Repository Structure
 
 ```
-pizza-sales-sql-powerbi-dashboard/
+## Repository Structure
+
+```text
+pizza-sales-analysis/
 │
-├── SQL/
-│   └── pizza_sales_queries.sql       # All SQL queries with comments
-│
-├── KPI_Documentation/
-│   └── Pizza_Sales_KPI_Queries.docx  # Query screenshots & SQL output validation doc
-│
-├── screenshots/
-│   ├── home.png                      # Dashboard Page 1
-│   └── best_worst.png                # Dashboard Page 2
-│
-├── pizza_sales_dashboard.pbix        # Power BI file
-├── pizza_sales.csv                   # Raw dataset
-└── README.md
+├── README.md
+├── Pizza.Sale.SQL.Queries.docx
+├── pizza_sales.csv
+├── pizza_sales_dashboard.pbix
+├── home.png
+└── best_worst.png
 ```
 
 ---
