@@ -103,7 +103,13 @@ The client (a pizza restaurant owner) needed answers to the following business q
 
 ##  SQL Analysis 
 
-All queries are stored in [Pizza Sale SQL Queries.docx](https://github.com/user-attachments/files/27937427/Pizza.Sale.SQL.Queries.docx)
+The project includes SQL queries covering:
+- KPI Metrics
+- Trend Analysis
+- Sales Breakdown
+- Best & Worst Sellers
+All queries are stored in [Pizza.Sale.SQL.Queries.docx](https://github.com/user-attachments/files/27937598/Pizza.Sale.SQL.Queries.docx)
+
 
 ---
 
@@ -152,7 +158,7 @@ Every KPI was cross-validated between SQL output and Power BI to confirm data ac
 pizza-sales-sql-powerbi-dashboard/
 │
 ├── SQL/
-│   └── pizza_sales_queries.sql       # All 17 SQL queries with comments
+│   └── pizza_sales_queries.sql       # All SQL queries with comments
 │
 ├── KPI_Documentation/
 │   └── Pizza_Sales_KPI_Queries.docx  # Query screenshots & SQL output validation doc
