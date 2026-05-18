@@ -157,7 +157,6 @@ Every KPI was cross-validated between SQL output and Power BI to confirm data ac
 ```
 ## Repository Structure
 
-```text
 pizza-sales-analysis/
 │
 ├── README.md
